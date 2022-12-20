@@ -256,9 +256,9 @@ button{
 /*===== Home Section =====*/
  .home{
     /* background:url('../img/home-bg.jpg'); */
-    background:url('../img/home-bg.jpg');
+    background-image:url('../img/Studio_Project.jpeg');
     background-color: var(--box-color);
-    background-size: cover;
+    background-size:cover;
     background-position: center center;
     height: 100vh;
 }
