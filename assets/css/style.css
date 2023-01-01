@@ -790,6 +790,11 @@ margin-bottom: var(--mb-2);
     font-size: var(--small-font-size);
 }
 
+.contact__card-title{
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
 .contact__card-data{
     display: block;
 }
