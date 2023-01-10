@@ -17,6 +17,15 @@
     <!--========== MAIN CSS ==========-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--========== email js script ==========-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("onskw3Ztj8C-zea11");
+        })();
+    </script>
+
     <title>Responsive portfolio website - Ayush Bais</title>
 </head>
 
@@ -45,6 +54,9 @@
                         </li>
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">Certificates</a>
                         </li>
                         <li class="nav__item">
                             <a href="#work" class="nav__link">Project</a>
@@ -89,7 +101,7 @@
                     <h1 class="home__title">Hi, i am ayush</h1>
                     <h3 class="home__subtitle">Full Stack Web Developer</h3>
                     <p class="home__description">
-                        A MEAN stack Developer with good At backend development
+                        A MEAN stack Developer, Searching a job to explore and inhance my capability  
                     </p>
                     <a href="#about" class="button">
                         <i class="uil uil-user button__icon"></i>
@@ -102,7 +114,7 @@
                         <i class="uil uil-facebook-messenger info__icon"></i>
                         <div>
                             <a href="mailto:ayushbais167@gmail.com">
-                                <h3 class="info__title">MESSANSGER</h3>
+                                <h3 class="info__title">LinkedIn</h3>
                                 <span class="info__subtitle"></span>
                             </a>
                         </div>
@@ -113,7 +125,7 @@
                         <i class="uil uil-whatsapp info__icon"></i>
                         <div>
                             <a href="mailto:ayushbais167@gmail.com">
-                                <h3 class="info__title">WHATSAPP</h3>
+                                <h3 class="info__title">github</h3>
                                 <span class="info__subtitle"></span>
                             </a>
                         </div>
@@ -361,6 +373,67 @@
             </div>
         </section>
 
+        <!--===== certificates =====-->
+
+        <section class="certificates section" id="certificates">
+            <h2 data-heading="My Achivements" class="section__title">CERTIFICATES</h2>
+            <div class="conatainer grid certificates__container ">
+                <div class="certificate__card">
+                    <img src="assets/img/Angular_intermidate(HackerRank).png" alt="" class="work__img">
+                    <h1 class="work__title">Angular (Intermidate)</h1>
+                    <span class="certificate__button">
+                        <a href="https://www.hackerrank.com/certificates/iframe/fd319edd94a3" target="_blank"
+                            class="certificate__link">
+                            View
+                            <i class="uil uil-arrow-right work__button-icon"></i></a>
+                    </span>
+                </div>
+                <div class="certificate__card">
+                    <img src="assets/img/sql_Advanced(hackerrank).png" alt="" class="work__img">
+                    <h1 class="work__title">SQL (advanced)</h1>
+                    <span class="certificate__button">
+                        <a href="https://www.hackerrank.com/certificates/iframe/ac438b75cb03" target="_blank"
+                            class="certificate__link">
+                            View
+                            <i class="uil uil-arrow-right work__button-icon"></i></a>
+                    </span>
+                </div>
+
+                <div class="certificate__card">
+                    <img src="assets/img/sql_intermidate(hackerRank).png" alt="" class="work__img">
+                    <h1 class="work__title">SQL (Intermidate)</h1>
+                    <span class="certificate__button">
+                        <a href="https://www.hackerrank.com/certificates/iframe/dbf0d03e667d" target="_blank"
+                            class="certificate__link">
+                            View
+                            <i class="uil uil-arrow-right work__button-icon"></i></a>
+                    </span>
+                </div>
+
+                <div class="certificate__card">
+                    <img src="assets/img/sql_basic(hackerrank).png" alt="" class="work__img">
+                    <h1 class="work__title">SQL (Basic)</h1>
+                    <span class="certificate__button">
+                        <a href="https://www.hackerrank.com/certificates/iframe/43757abb8924" target="_blank"
+                            class="certificate__link">
+                            View
+                            <i class="uil uil-arrow-right work__button-icon"></i></a>
+                    </span>
+                </div>
+                <div class="certificate__card">
+                    <img src="assets/img/javascript_basic(hackerRank).png" alt="" class="work__img">
+                    <h1 class="work__title">JavaScript (Basic)</h1>
+                    <span class="certificate__button">
+                        <a href="https://www.hackerrank.com/certificates/iframe/a5454ce2e19f" target="_blank"
+                            class="certificate__link">
+                            View
+                            <i class="uil uil-arrow-right work__button-icon"></i></a>
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
         <!--===== Work =====-->
 
         <section class="skills section" id="work">
@@ -374,23 +447,23 @@
 
             <div class="work__container container grid">
                 <div class="work__card mix web">
-                    <img src="assets/img/work-1.webp" alt="" class="work__img">
-                    <h1 class="work__title">Demo1</h1>
+                    <img src="assets/img/hrpms_login.png" alt="" class="work__img">
+                    <h1 class="work__title">HRPMS</h1>
                     <span class="work__button">Demo
                         <i class="uil uil-arrow-right work__button-icon"></i>
                     </span>
                     <div class="portfolio__item-details">
-                        <h3 class="details__title">title-1</h3>
-                        <p class="details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
-                            rem,
-                            doloremque et amet nisi sit illo, ullam unde, mollitia ut porro libero beatae. Consequuntur
-                            nisi
-                            voluptate consequatur in quaerat rerum.
+                        <h3 class="details__title">InternShip project</h3>
+                        <p class="details__description">High Risk Pregnancy Monitoring System is a web application,
+                             and it is specially developed for healthcare Department of Chhattisgarh that works Over the C.G. government.
+                            This system helps the healthcare department to store the basic and health related information of pregnant lady 
+                            whose pregnancy is at high risk.
+                            these statistics are used to monitor the health status of registered patient .
                         </p>
                         <ul class="details__info">
-                            <li>created - <span>1 jan 2022</span></li>
-                            <li>Technologies - <span> Html Css </span></li>
-                            <li>Role - <span> backend</span></li>
+                            <li>created - <span>1 March 2022 - 1 sep 2022 </span></li>
+                            <li>Technologies - <span> Angular Express </span></li>
+                            <li>Role - <span>both frontend and backend</span></li>
                             <li>view - <span><a href="#">www.domain.com</a></span></li>
                         </ul>
                     </div>
@@ -398,13 +471,13 @@
                 </div>
 
                 <div class="work__card mix app">
-                    <img src="assets/img/work-1.webp" alt="" class="work__img">
-                    <h1 class="work__title">Demo2</h1>
+                    <img src="assets/img/ayushbais007.github.io_Todo.github.io_user_home.png" alt="" class="work__img">
+                    <h1 class="work__title">TODO App</h1>
                     <span class="work__button">Demo
                         <i class="uil uil-arrow-right work__button-icon"></i>
                     </span>
                     <div class="portfolio__item-details">
-                        <h3 class="details__title">title-2</h3>
+                        <h3 class="details__title">TODO APP</h3>
                         <p class="details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
                             rem,
                             doloremque et amet nisi sit illo, ullam unde, mollitia ut porro libero beatae. Consequuntur
@@ -413,22 +486,25 @@
                         </p>
                         <ul class="details__info">
                             <li>created - <span>1 jan 2022</span></li>
-                            <li>Technologies - <span> Html Css </span></li>
+                            <li>Technologies - <span> ANGULAR FIREBASE </span></li>
                             <li>Role - <span> forntend</span></li>
-                            <li>view - <span><a href="#">www.domain.com</a></span></li>
+                            <li>view - <span>
+                                    <a href="https://ayushbais007.github.io/Todo.github.io/"
+                                        target="_blank">https://ayushbais007.github.io/Todo.github.io/</a>
+                                </span></li>
                         </ul>
                     </div>
 
                 </div>
 
                 <div class="work__card mix design">
-                    <img src="assets/img/work-1.webp" alt="" class="work__img">
-                    <h1 class="work__title">Demo3</h1>
+                    <img src="assets/img/ayushbais007.github.io_wheatherApp.github.io_.png" alt="" class="work__img">
+                    <h1 class="work__title">Wheather App</h1>
                     <span class="work__button">Demo
                         <i class="uil uil-arrow-right work__button-icon"></i>
                     </span>
                     <div class="portfolio__item-details">
-                        <h3 class="details__title">title3</h3>
+                        <h3 class="details__title">Wheather App</h3>
                         <p class="details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
                             rem,
                             doloremque et amet nisi sit illo, ullam unde, mollitia ut porro libero beatae. Consequuntur
@@ -437,9 +513,13 @@
                         </p>
                         <ul class="details__info">
                             <li>created - <span>1 jan 2022</span></li>
-                            <li>Technologies - <span> Html Css </span></li>
+                            <li>Technologies - <span> Html Css JS </span></li>
                             <li>Role - <span> forntend</span></li>
-                            <li>view - <span><a href="#">www.domain.com</a></span></li>
+                            <li>view - <span>
+                                    <a href="https://ayushbais007.github.io/wheatherApp.github.io/"
+                                        target="_blank">https://ayushbais007.github.io/wheatherApp.github.io/</a>
+                                </span>
+                            </li>
                         </ul>
                     </div>
 
@@ -500,7 +580,8 @@
                 <div class="portfolio__popup-content grid">
                     <span class="portfolio__popup-close"><i class="uil uil-times"></i></span>
                     <div class="pp__thumbnail">
-                        <img src="./assets/img/work-2.webp" alt="" class="portfolio__popup-img">
+                        <img src="./assets/img/ayushbais007.github.io_Todo.github.io_user_home.png" alt=""
+                            class="portfolio__popup-img">
                     </div>
                     <div class="portfolio__popup-info">
                         <div class="portfolio__popup-subtitle">Featured -
@@ -509,7 +590,7 @@
                             </span>
                         </div>
                         <div class="portfolio__popup-body">
-                            <h3 class="details__title">demo</h3>
+                            <h3 class="details__title">TODO APP</h3>
                             <p class="details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Quas rem,
                                 doloremque et amet nisi sit illo, ullam unde, mollitia ut porro libero beatae.
@@ -576,21 +657,21 @@
                 <div class="contact__content">
                     <form action="" class="contact__form">
                         <div class="input__container">
-                            <input type="email" class="input">
+                            <input type="email" class="input" id="email">
                             <label for="">Email</label>
                             <span>Email</span>
                         </div>
                         <div class="input__container">
-                            <input type="tel" class="input">
-                            <label for="">Phone</label>
-                            <span>Phone</span>
+                            <input type="text" class="input" id="name">
+                            <label for="">NAME</label>
+                            <span>name</span>
                         </div>
                         <div class="input__container textarea">
-                            <textarea name="" id="" class="input"></textarea>
+                            <textarea name="" class="input" id="message"></textarea>
                             <label for="">Message</label>
                             <span>Message</span>
                         </div>
-                        <button type="submit" class="button">
+                        <button type="submit" class="button" id=sendButton (click)="sendMessage()">
                             <i class="uil uil-navigator button__icon"></i>
                             Send Me
                         </button>
@@ -649,6 +730,7 @@
 
     <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
