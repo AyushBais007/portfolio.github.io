@@ -137,32 +137,21 @@ function navHighlighter() {
 sendButton = document.getElementById('sendButton');
 sendButton.addEventListener('click', () => {
     console.log('send messasge')
+
     const email = document.getElementById('email');
     const name = document.getElementById('name');
     const message = document.getElementById('message')
   
     if(email.value != ''){
         sendEmail(email.value,name.value,message.value);
+    }else{
+        alert('fill the email ')
+        //window.focus('#contacts')
     }
     console.log(email.value,name.value,message.value)
 })
 
 function sendEmail(email,name,message) {
-    // console.log(Email)
-    // Email.send({
-    //   Host: "smtp.elasticemail.com",
-    //   Username: "dakshgamer167@gmail.com",
-    //   Password: "E6B2FC1793EC151C2BE62C0E4FC2159A7580",
-    //   To: 'ayushbais167@gmail.com',
-    //   From: "ayushbais167@gmail.com",
-    //   Subject: "Sending Email using javascript",
-    //   Body: "Well that was easy!!",
-    // })
-    // .then(function (message) {
-    //     console.log(message)
-    //     alert(message)
-    //   });
-
     var templateParams = {
         name: name,
         email:email,
