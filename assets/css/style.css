@@ -258,10 +258,10 @@ button{
     /* background:url('../img/home-bg.jpg'); */
     background-image:url('../img/Studio_Project.jpeg');
     background-color: var(--box-color);
-    background-size:contain;
+    background-size:cover;
     background-position: center center;
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
 .home__container{
